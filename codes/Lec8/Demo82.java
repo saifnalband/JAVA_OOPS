@@ -2,6 +2,7 @@ import java.util.*;
 public class Demo82 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the number of elemnts: ");
         int n = scan.nextInt();
         int a[] = new int[n];
         for(int i = 0; i < n; i++){

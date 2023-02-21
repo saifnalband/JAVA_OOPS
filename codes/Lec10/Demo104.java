@@ -30,7 +30,8 @@ public class Demo104 {
     }    
     public static void main(String[] args) {    
             
-        String str1="Great Power";    
+        String str1="Great Power";  
+        //String str3 = str1;  
         StringBuffer newStr=new StringBuffer(str1);
         printLowerCase(str1);
         printHigerCase(str1);    

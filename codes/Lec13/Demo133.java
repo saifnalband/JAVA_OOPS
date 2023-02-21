@@ -36,15 +36,15 @@ class Account{
 }  
     //Creating a test class to deposit and withdraw amount  
 class Demo133{  
-    public static void main(String[] args){  
-        Account ayush = new Account();  
-        ayush.insert(201902000,"Ayush",10000);  
-        ayush.display();  
-        ayush.checkBalance();  
-        ayush.deposit(9900);  
-        ayush.checkBalance();  
-        ayush.withdraw(5500);  
-        ayush.checkBalance();  
+    public static void main(String[] args){ 
+        Account aryan = new Account();  
+        aryan.insert(201902000,"Aryan",10000);  
+        aryan.display();  
+        aryan.checkBalance();  
+        aryan.deposit(9900);  
+        aryan.checkBalance();  
+        aryan.withdraw(5500);  
+        aryan.checkBalance();  
     }
 }   
     

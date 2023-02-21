@@ -25,8 +25,8 @@ class Student{
 class Demo132a{  
 	public static void main(String args[]){ 
         // contructors with different arguments  
-	    Student s1 = new Student(101,"Ayush","java");  
-	    Student s2 = new Student(102,"Smriti","java",6000f);  
+	    Student s1 = new Student(101,"Aryan","java");  
+	    Student s2 = new Student(102,"Garima","java",6000f);  
 	    s1.display();  
 	    s2.display();  
     }   

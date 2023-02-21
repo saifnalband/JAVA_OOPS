@@ -22,6 +22,7 @@ class Circle {
 		r = 50;
 	}
     Circle(double x, double y, double r){
+		System.out.println("Paramterizted Contructors");
 		this.x = x; // Set center x-coordinate
 		this.y = y; // Set center y-coordinate
 		this.r = r; // Set radius
@@ -34,6 +35,7 @@ class Demo131{
 		System.out.println("Area Circle 2" + c2.area());
     	// changing again by calling method : But this is very tedious way
         c2.setCircle(1.0,1.0, 5);
+        c2.setCircle(10,10,30);
         System.out.println("Circumference Circle 2: " + c2.circumference());
 		System.out.println("Area Circle 2" + c2.area());
 		// Creating object of default constructors

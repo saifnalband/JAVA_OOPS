@@ -1,5 +1,5 @@
 // A program that declares two objects of the Circle class
-// Call this file CircleDemo2.java
+// Call this file
 
 class Circle {
     double x, y;

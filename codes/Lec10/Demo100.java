@@ -8,7 +8,7 @@ public class Demo100{
         String string = "The best of both worlds";    
         int count = 0;    
         //Counts each character except space    
-        for(int i = 0; i < string.length(); i++) {    
+        for(int i = 0; i < string.length(); i++) {   // a[i] 
             if(string.charAt(i) != ' ')    
                 count++;    
         }    

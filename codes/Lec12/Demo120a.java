@@ -25,6 +25,8 @@ class Demo120a {
       // declare, allocate, and initialize Box objects
       Box mybox1 = new Box();
       Box mybox2 = new Box();
+      System.out.println("Depth of mybox" + mybox1.depth);
+      System.out.println("Height of mybox" + mybox2.height);
   
       double vol;
   
