@@ -9,7 +9,7 @@ abstract class Figure {
     }
   
     // area is now an an abstract method 
-    abstract double area();
+    abstract double area(); // declare
 }
   
 class Rectangle extends Figure {

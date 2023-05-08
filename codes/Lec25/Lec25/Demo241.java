@@ -20,6 +20,7 @@ class Point2D{
     }
 }
 class Point3D extends Point2D{
+    // double x, y;
     double z;
     Point3D(){
         super();
@@ -27,6 +28,8 @@ class Point3D extends Point2D{
     }
     Point3D(double x, double y, double r){
         super(x, y);
+        //this.x = x;
+        //this.y = y;
         this.z = z;
     }
     void display(){

@@ -9,6 +9,8 @@ interface I1 {
 }
 
 interface I2 extends I1 {
+	// double x = 4.444;
+	// void methodI1();
     double y = 5.555;
 	void methodI2(); //public static by default
 }
@@ -16,7 +18,7 @@ interface I2 extends I1 {
 
 class A1 implements I2 {
        public int a1 = 555;
-	   
+	   // defination
        public void methodI1(){
            System.out.println("From I1"+x+y);
        }

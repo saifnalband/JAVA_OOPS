@@ -5,7 +5,7 @@ class Bike{
 }
 class RoyalEnfield extends Bike{
     void run(){
-        System.out.println("Hug Hug Hug....");
+        System.out.println("DHug DHug DHug....");
     }
 }
 class Demo243{

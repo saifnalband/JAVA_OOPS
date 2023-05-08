@@ -3,7 +3,7 @@ public class Demo359
 {  
      Demo359(){  
         JFrame f= new JFrame();  
-        JTextArea area=new JTextArea("Welcome to DYPIU");  
+        JTextArea area=new JTextArea("Welcome to TIET");  
         area.setBounds(10,30, 200,200);  
         f.add(area);  
         f.setSize(300,300);  

@@ -6,13 +6,15 @@ public class Demo336  {
 	public static void main (String args[ ]) {
 		try {
 			int i = args.length; 	  // No of arguments in the command line
-			String myString[] = new String[i];	
-			// If i = 0 then  myString null pointer error
-			if(myString[0].equals("Java")){  // #1 //
-				System.out.println("First word is Java !");
-			}
+			String myString[] = new String[i];
 			System.out.println( " Number of arguments = " + i );
-			int x = 12/ i; 	    // # 2 //
+			System.out.println("Command line Argument: "+myString[1]);	
+			// If i = 0 then  myString null pointer error
+			if(myString[1].equals("Java")){  // #1 //
+				System.out.println("First word is Java !");
+			} 
+			System.out.println( " Number of arguments = " + i );
+			int x = 12/ i; 	    // # 2 // if i=0
 			int y[ ] = {555, 999}; // y is an array of size 2 with index 0,1
 			y[ i ] = x;   //#3// Index is out-of-range may occur if i > 1
 		}

@@ -18,7 +18,7 @@ class Employee extends Person{
 }  
 class Demo234{  
     public static void main(String[] args){  
-        Employee e1 = new Employee(1,"Ayush",45000f);  
+        Employee e1 = new Employee(1,"Aryan",45000f);  
         e1.display();  
     }
 }  

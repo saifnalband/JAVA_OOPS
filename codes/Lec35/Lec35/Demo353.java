@@ -10,7 +10,7 @@ public class Demo353 {
         // Step 1:  Register the component with the Listener using anaomous class
         b.addActionListener(new ActionListener(){ 
             public void actionPerformed(ActionEvent e){  
-                tf.setText("Welcome to DYPIU.");  
+                tf.setText("Welcome to TIET.");  
             }  
         });  
         f.add(b);

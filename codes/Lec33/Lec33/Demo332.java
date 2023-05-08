@@ -13,7 +13,6 @@ public class Demo332 {
 		}
 		return 0;
 	}
-
 	public static void main (String args[]) {
 		int a,b, result;
 		a=0;
@@ -22,7 +21,9 @@ public class Demo332 {
 			a = Integer.parseInt(args[0]);
 			b = Integer.parseInt(args[1]);
 			System.out.println("Value of a and b =  "+a+"  "+b);
-		}catch(Exception e){}
+		}catch(Exception e){
+			System.out.println("Values not given properly at RUN time");
+		}
 		result  = anyFunction (a, b); 
 		System.out.println ( "\nResult : " + result);
 	}

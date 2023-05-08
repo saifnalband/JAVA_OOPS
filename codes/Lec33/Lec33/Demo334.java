@@ -1,4 +1,5 @@
-/* The following program with exception handling mechanism shows how robust it while it is in execution */
+/* The following program with exception handling mechanism shows 
+how robust it while it is in execution */
 
 class Demo334 {
 	public static void main (String args[ ]){
@@ -7,11 +8,11 @@ class Demo334 {
 		{
 			try {
 				number = Integer.parseInt(args[i]);
+				validCount++;
 			} catch (NumberFormatException e){
 				InvalidCount++;
 				System.out.println ("Invalid number at " + i +"  "+ args[i]); 
 			}
-			validCount++;
 			System.out.println ("Valid number at " + i+"  "+ args[i]);
 		}
 		System.out.println ("Invalid entries: " + InvalidCount);

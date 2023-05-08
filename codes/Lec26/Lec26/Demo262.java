@@ -1,6 +1,6 @@
 // A Simple demonstration of abstract.
 abstract class A {
-  abstract void callme();
+  abstract void callme(); // declare
 
   // concrete methods are still allowed in abstract classes
   void callmetoo() {
@@ -9,7 +9,8 @@ abstract class A {
 }
 
 class B extends A {
-  void callme() {
+  // void callmetoo()
+  void callme() { // define
     System.out.println("B's implementation of callme.");
   }
 }

@@ -11,7 +11,7 @@ class B extends A {
         System.out.println("Inside B's callme method");
     }
 }
-class Demo244 {
+class Demo245 {
     public static void main(String args[]) {
         A a = new B(); // upcasted 
         a.callme();

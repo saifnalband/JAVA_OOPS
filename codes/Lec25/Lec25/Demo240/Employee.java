@@ -18,8 +18,8 @@ public class Employee {
         Address address1 = new Address("Pune","MH","India");  
         Address address2 = new Address("Mumbai","MH","India");  
       
-        Employee e1 = new Employee(111,"Taniya",address1);  
-        Employee e2 =new Employee(112,"Amol",address2);  
+        Employee e1 = new Employee(111,"Ronaldo",address1);  
+        Employee e2 =new Employee(112,"Messi",address2);  
           
         e1.display();  
         e2.display();  

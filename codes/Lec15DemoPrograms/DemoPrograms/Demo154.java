@@ -14,8 +14,8 @@ class Point{
 
     // method
     void setPoint(){
-        x = 10;
-        y = 20;
+        x = 100;
+        y = 200;
         // default initisation
     }
     void setPoint(int a, int b){
@@ -27,11 +27,19 @@ class Point{
         x = 10;
         y = 10;
     }
+    Point(int a, int b){
+        x = a;
+        y = b;
+        System.out.println(" paramtersised Contructors");
+    }
 }
 class Demo154{
     public static void main(String args[]){
         // default initilsation
         Point mypoint1 = new Point();
+        System.out.println(" Before calling mypoint1.setPoint();");
+        System.out.println("Object: 1 point x: " + mypoint1.x);
+        System.out.println("Object: 1 point y: " + mypoint1.y);
         mypoint1.setPoint();
         System.out.println("Object: 1 point x: " + mypoint1.x);
         System.out.println("Object: 1 point y: " + mypoint1.y);

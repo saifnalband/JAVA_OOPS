@@ -14,11 +14,16 @@ class Point{
         x = 10;
         y = 20;
     }
+    void getPoint(){
+        System.out.println("point x: " + x);
+        System.out.println("point y: " + y);
+    }
 }
 class Demo151{
     public static void main(String args[]){
         Point mypoint = new Point();
         mypoint.setPoint(); // no hard coding of initilisation
+        mypoint.getPoint();
         System.out.println("point x: " + mypoint.x);
         System.out.println("point y: " + mypoint.y);
     }

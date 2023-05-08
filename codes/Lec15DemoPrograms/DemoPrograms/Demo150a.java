@@ -10,7 +10,7 @@ import java.lang.*;
 class Calculator{
     double i;
     double getSqrt(double a){
-        return Math.sqrt(i);
+        return Math.sqrt(a);
     }
 }
 class Demo150a{
